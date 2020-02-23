@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:latest
+FROM  andrewlock/docker-dotnet-mono:latest
 COPY . /app
 WORKDIR  /app
  
