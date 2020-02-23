@@ -2,4 +2,6 @@ FROM microsoft/dotnet:latest
 COPY . /app
 WORKDIR  /app
  
-ENTRYPOINT sudo ./build.sh
+RUN ["chmod", "+x", "./build.sh"]
+
+ENTRYPOINT ["./build.sh"]
