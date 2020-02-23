@@ -10,7 +10,7 @@ namespace UnitTestProject1
         public void TestMethod1()
         {
             var service = new WebApplication3.Services.Service(3);
-            Assert.AreEqual(6, service.Calc());
+            Assert.AreEqual(5, service.Calc());
         }
     }
 }
