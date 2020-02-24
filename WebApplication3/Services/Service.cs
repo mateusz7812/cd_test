@@ -16,7 +16,7 @@ namespace WebApplication3.Services
 
         public int Calc()
         {
-            return number * 2;
+            return number * 3;
         }
     }
 }
