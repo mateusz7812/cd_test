@@ -1,4 +1,4 @@
-FROM  andrewlock/docker-dotnet-mono:latest
+FROM  cakebuild/cake:2.1-sdk-mono
 COPY . /app
 WORKDIR  /app
  
